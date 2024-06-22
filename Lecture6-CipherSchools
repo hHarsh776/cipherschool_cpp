@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float a,b;
+    cout<<"give two floating value"<<endl;
+    cin>>a>>b;
+    if(a>0.001 && b>a);
+    {
+        cout<<"the condition of if statement is true ";
+    }
+
+
+}
+#include <iostream>
+using namespace std;
+int main(){
+    int marks;
+    cout<<"Student, Please enter the marks to claculate the grade :";
+    cin>>marks;
+    if (marks>90)
+    {
+        cout<<"A";
+    }
+    else if (marks>80)
+    {
+        cout<<"B";
+    }
+    else if (marks>70)
+    {
+        cout<<"c";
+    }
+    else
+    {
+        cout<<"Pass";
+        
+    }
+    
+}
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c,d;
+    cout<<"Give the four input : a,b,c,d"<<endl;
+    cin>>a>>b>>c>>d;
+    if (a>b && c>d)
+    {
+        cout<<"haha";
+    }
+    else if (a>b && c<d)
+    {
+        cout<<"hehe";
+    }
+    else if (a<b && c>d)
+    {
+        cout<<"huhu";
+        
+    }
+}
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    cout<<"Enter a integer a"<<endl;
+    cin>>a;
+    switch (a)
+    {
+        case 1:
+        cout<<"The value of a is 1";
+        break;
+        case 2:
+        cout<<"The value of a is 2";
+        break;
+        case 3:
+        cout<<"The value of a is 3";
+        break;
+        default:
+        cout<<"default will be always printed";
+    }
+}
