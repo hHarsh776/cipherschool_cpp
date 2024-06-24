@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a[10];
+    int i;
+    cout<<"Give me 10 integers "<<endl;
+    for (i=0;i<10;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"10 given input are :"<<endl;
+    for (i=9;i>=0;i--)
+    {
+     cout<<a[i]<<" ";   
+    }
+    return 0;
+}
