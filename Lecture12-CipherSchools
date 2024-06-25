@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int password;
+    cout<<"Enter the passward"<<endl;
+    cin>>password;
+    while (password<999999)
+    {
+cout<<"The password you enter is not correct, please enter it again"<<endl;
+      cin>>password;
+    }
+    cout<<"The password is correct"<<endl;
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int password;
+
+do{
+    cin>>password;
+}
+while(password<999999);
+}
+
+
+#include<iostream>
+using namespace std;
+int main() {
+    int password;
+    while(1){
+        cout<<"Chocolates"<<endl;
+    }
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main() {
+    int i;
+    for(i=0;  ;i++){
+        cout<<i;
+        if(i>100)
+        break;
+    }
+}
